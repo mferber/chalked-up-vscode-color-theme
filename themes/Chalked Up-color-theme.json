@@ -275,45 +275,42 @@
 				"meta.definition.variable"
 			],
 			"settings": {
-				"foreground": "#8888ff",
-				"fontStyle": "bold"
+				"foreground": "#90ebff"
 			}
 		},
 		{
-			"name": "Function declarations",
+			"name": "Function and method declarations",
 			"scope": [
-				"meta.definition.function entity.name.function"
+				"meta.definition.function entity.name.function",
+				"meta.definition.method entity.name.function"
 			],
 			"settings": {
-				"foreground": "#ef974f",
-				"fontStyle": "bold"
+				"foreground": "#f49345"
 			}
 		},
 		{
-			"name": "Invalid",
+			"name": "Class and interface declarations",
 			"scope": [
-				"invalid",
-				"invalid.illegal"
+				"meta.class entity.name.type.class",
+				"meta.interface entity.name.type.interface"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#c4622b"
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Storage",
 			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#ffc0f9"
+				"foreground": "#6aa0bd"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"keyword.operator",
 				"constant.other.color",
 				"meta.tag",
@@ -322,6 +319,16 @@
 			],
 			"settings": {
 				"foreground": "#fc9847"
+			}
+		},
+		{
+			"name": "Operator, expressions",
+			"scope": [
+				"keyword.operator.expression",
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -337,7 +344,7 @@
 				"meta.brace"
 			],
 			"settings": {
-				"foreground": "#aaaaaa"
+				"foreground": "#999999"
 			}
 		},
 		{
@@ -397,7 +404,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#85ade0"
 			}
 		},
 		{
@@ -421,7 +428,6 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
 			}
 		},
 		{
@@ -835,5 +841,14 @@
 				"foreground": "#dddddd"
 			}
 		},
+		{
+			"name": "Invalid syntax",
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		}
 	]
 }
