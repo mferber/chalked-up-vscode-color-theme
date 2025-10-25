@@ -1,16 +1,12 @@
-# chalked-up README
+# Chalked Up color theme
 
-## Working with Markdown
+This is a VSCode color theme, with colors very roughly based on the Xcode
+theme Sidewalk Chalk.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+As an experiment, I'm following the general recommendations of Nikita
+Prokopov (@tonsky) in his blog post, "[I am sorry, but everyone is getting
+syntax highlighting wrong](https://tonsky.me/blog/syntax-highlighting/)."
+The general idea is that most syntax highlighting is wildly excessive and
+hinders code understanding rather than helping it. Most keywords are left
+unhighlighted, as are variable and function *references*; variable and
+function *declarations* are deemed meaningful and are still highlighted.
