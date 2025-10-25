@@ -270,32 +270,24 @@
 			}
 		},
 		{
-			"name": "Variable declarations",
+			"name": "Symbol declarations",
 			"scope": [
-				"meta.definition.variable"
+				"meta.definition.variable",
+				"variable.parameter",
+				"meta.definition.function entity.name.function",
+				"meta.definition.method entity.name.function",
+				"meta.class entity.name.type.class",
+				"meta.interface entity.name.type.interface"
 			],
 			"settings": {
 				"foreground": "#90ebff"
 			}
 		},
 		{
-			"name": "Function and method declarations",
-			"scope": [
-				"meta.definition.function entity.name.function",
-				"meta.definition.method entity.name.function"
-			],
+			"name": "Symbol imports",
+			"scope": "meta.import variable",
 			"settings": {
-				"foreground": "#f49345"
-			}
-		},
-		{
-			"name": "Class and interface declarations",
-			"scope": [
-				"meta.class entity.name.type.class",
-				"meta.interface entity.name.type.interface"
-			],
-			"settings": {
-				"foreground": "#c4622b"
+				"foreground": "#f1984f"
 			}
 		},
 		{
@@ -318,17 +310,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#fc9847"
-			}
-		},
-		{
-			"name": "Operator, expressions",
-			"scope": [
-				"keyword.operator.expression",
-				"keyword.operator.new"
-			],
-			"settings": {
-				"foreground": "#dddddd"
+				"foreground": "#999999"
 			}
 		},
 		{
