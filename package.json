@@ -1,0 +1,21 @@
+{
+  "name": "chalked-up",
+  "displayName": "chalked-up",
+  "description": "Sidewalk Chalk-inspired minimal color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chalked Up",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Chalked Up-color-theme.json"
+      }
+    ]
+  }
+}
